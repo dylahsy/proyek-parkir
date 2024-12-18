@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parkir Mobil</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Penentuan Slot Parkir Mobil</h1>
+      <form id="parkingForm">
+        <label for="platNomor">Masukkan Plat Nomor Mobil:</label>
+        <input
+          type="text"
+          id="platNomor"
+          placeholder="Contoh: BH1234"
+          required
+        />
+        <button type="submit">Cek Slot Parkir</button>
+      </form>
+      <div id="result" class="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
